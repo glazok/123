@@ -1,8 +1,8 @@
-git checkout -b name
-git status
-git add fails
-git commit -m "name commit"
-pull request НЕ НАЖИМАЕМ!
-github -> страница проекта -> code -> compare & pull request нажимаем
-Нажимаем рядом стрелочка c  Create pull request выбираем -> Create draft pull request
+git checkout -b name <br>
+git status <br>
+git add fails <br>
+git commit -m "name commit" <br>
+pull request НЕ НАЖИМАЕМ! <br>
+github -> страница проекта -> code -> compare & pull request нажимаем <br>
+Нажимаем рядом стрелочка c  Create pull request выбираем -> Create draft pull request <br>
 Ждем потверждения review
