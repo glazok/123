@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.combat{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.combat-interface{
+    flex-grow: 3;
+    display: flex;
+}
+
+.player{
+    flex-grow: 1;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    padding: 5px;
+}
+
+.player-name{
+    font-size: 20px;
+}
+
+.player-img{
+    width: 100%;
+    align-self: center;
+}
+
+.battle{
+    background-color: aliceblue;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.battle-style-choice{
+    display: flex;
+}
+
+.chat{
+    flex-grow: 1;
+    display: flex;
+    padding-left: 10px;
+    max-height: 160px;
+    border-top: gainsboro 3px solid;
+}
+
+.battle-controls{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.battle-controls-button{
+    width: 100px;
+    align-self: center;
+}
+
+.battle-info{
+    border-top: gainsboro 1px solid;
+    padding: 5px 0 5px 0;
+    border-bottom: gainsboro 1px solid;
+}
+
+.battle-logs{ 
+    flex-grow: 1;
+    min-width: 600px;
+    max-height: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.attack{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.defence{
+    display: flex;
+    flex-direction: column;
+}
+
+.messages{ 
+    flex-grow: 7;
+    display: flex;
+    flex-direction: column;
+}
+
+.users-message{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    margin-left: 10px;
+}
+
+.messages-form{
+    display: flex;
+    height: 40px;
+    margin: 0;
+    padding: 5px;
+}
+
+.messages-input{
+    flex-grow: 1;
+}
+
+.users-list{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.hp-bar{
+    height: 15px;
+    background-color: gainsboro;
+    margin: 20px 0 20px 0;
+}
+
+.hp-bar-status{
+    height: 15px;
+    background-color: yellowgreen;
+    width: 90%
+}
